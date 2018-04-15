@@ -12,7 +12,7 @@ curl "${API}${URL_PATH}" \
       "date": "'"${DATE}"'",
       "description": "'"${DESCRIPTION}"'",
       "energy_needed": "'"${ENERGY}"'",
-      "is_completed": "'"${COMPLETED}"'"
+      "is_completed": "'"${COMPLETED}"'",
       "is_crucial": "'"${CRUCIAL}"'"
     }
   }'
