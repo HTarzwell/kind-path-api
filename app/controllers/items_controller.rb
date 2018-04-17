@@ -46,6 +46,6 @@ class ItemsController < OpenReadController
 
     # Only allow a trusted parameter "white list" through.
     def item_params
-      params.require(:item).permit(:user_id, :date, :description, :energy_needed, :is_completed, :is_crucial)
+      params.require(:item).permit(:date, :description, :energy_needed, :is_completed, :is_crucial)
     end
 end
