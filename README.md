@@ -88,3 +88,7 @@ However,
 | GET    | `/sign-in`             | `items#index`     |
 | PATCH  | `/items:id`            | `items#update`    |
 | DELETE | `/items:id`            | `items#destroy`   |
+
+### Dependencies
+
+Run standard 'bundle install'
