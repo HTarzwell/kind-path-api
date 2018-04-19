@@ -53,7 +53,9 @@ However, once the application was served and operational, I worked closely with 
 CRUD functions of the application, both of the 'auth' specifications and for the client resources.
 
 I had reached MVP by Wednesday; however, the problem of how to actually make my application behave like a basic
-to-do app still remained, and in this regard, Ember was to prove to be an obstacle at first.
+to-do app still remained, and in this regard, Ember was to prove to be an obstacle at first. However, with
+guidance and by using previous applications and documentation, I was able to create a working component which
+rendered individual items and prevented disruption to both the application and the code.
 
 ## Problem-Solving
 
@@ -62,7 +64,9 @@ in particular the DDAU system, where nested components and data were sent up and
 documentation many times, and eventually discovered that the system, while counter-intuitive, could be made to
 work well and create a foundation of granular components that could be easily adapted to my needs.
 
-However,
+However, one of the largest obstacles I had was learning to rely on Ember's built-in advantages without either
+over-estimating Ember's capabilities or attempting to treat the framework as vanilla JS.  Ember has distinct
+benefits, and one of the greatest it has is its ability to render data.
 
 ## ERD Shots
 
@@ -91,4 +95,4 @@ However,
 
 ### Dependencies
 
-Run standard 'bundle install'
+Run standard ```bundle install```
